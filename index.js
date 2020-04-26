@@ -7,8 +7,8 @@ const prepend = ["Milo", "Otis", "Garfield"];
 prepend.unshift("Odie");
 //  prepends a pet to the beginning of the pets array
 const removeFirst = ["Milo", "Otis", "Garfield"];
-removeFirst.shift("Milo")
+removeFirst.shift()
 // removes the First pet from the pets array
 const removeLast = ["Milo", "Otis", "Garfield"];
-removeLast.pop("Garfield")
+removeLast.pop()
 // removes the last pet from the pets array
